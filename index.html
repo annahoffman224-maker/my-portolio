@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Photography & Marketing</title>
+    <style>
+        :root { --bg: #121212; --text: #e0e0e0; --accent: #00adb5; }
+        body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); margin: 0; line-height: 1.6; }
+        header { padding: 80px 20px; text-align: center; }
+        h1 { font-size: 3rem; margin-bottom: 10px; letter-spacing: -1px; }
+        .tagline { font-weight: 300; color: var(--accent); text-transform: uppercase; letter-spacing: 2px; }
+        
+        .container { max-width: 1000px; margin: auto; padding: 20px; }
+        
+        /* Grid for Photography */
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px; margin-bottom: 50px; }
+        .photo-card { background: #1e1e1e; height: 250px; border-radius: 8px; display: flex; align-items: center; justify-content: center; border: 1px solid #333; }
+        
+        /* Marketing Section */
+        .marketing-item { background: #1e1e1e; padding: 30px; border-radius: 8px; border-left: 5px solid var(--accent); margin-bottom: 20px; }
+        .stat { font-weight: bold; color: var(--accent); font-size: 1.2rem; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>YOUR NAME</h1>
+    <p class="tagline">Visual Storytelling & Digital Growth</p>
+</header>
+
+<div class="container">
+    <h2>Photography</h2>
+    <div class="gallery">
+        <div class="photo-card">Image Placeholder 1</div>
+        <div class="photo-card">Image Placeholder 2</div>
+        <div class="photo-card">Image Placeholder 3</div>
+    </div>
+
+    <h2>Marketing Strategy</h2>
+    <div class="marketing-item">
+        <h3>Campaign: Brand X Launch</h3>
+        <p>Developed a multi-channel social strategy focusing on organic growth.</p>
+        <p class="stat">+45% Engagement in 30 Days</p>
+    </div>
+</div>
+
+</body>
+</html>
